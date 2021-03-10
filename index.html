@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Landing page</title>
+</head>
+
+<body class="bg-indigo-200 font-sans flex flex-col items center">
+    <header class="bg-indigo-700 w-full px-4 py-3 flex justify-center border-b-4 border-pink-500">
+        <div class="max-w-4xl w-full">
+            <div class="flex items-center justify-between text-pink-500">
+                <svg class="h-8 fill-current" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Scrimba icon</title><path d="M24 6.222a2.222 2.222 0 01-2.222 2.222h-8.89a2.222 2.222 0 010-4.444h8.89C23.005 4 24 4.995 24 6.222zm-7.333 9.334h-8.89a2.222 2.222 0 000 4.444h8.89a2.222 2.222 0 000-4.444zm0-5.778H13.11a2.222 2.222 0 000 4.444h3.556a2.222 2.222 0 000-4.444zM2.222 15.556a2.222 2.222 0 100 4.444 2.222 2.222 0 000-4.444z"/></svg>
+        
+                <button class="text-gray-500 sm:hidden" type="button">
+                    <svg class="fill-current" fill="none" height="24" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="18" y2="18"/></svg>
+                </button>
+            </div>
+        
+            <p class="text-2xl text-indigo-100 mt-4">Want to learn Tailwind CSS?</p>
+            <p class="text-sm text-indigo-200">Tailwind is the fastest growing utility-first CSS framework. Let's learn it step by step.</p>
+       
+            <div class="relative flex justify-between">
+                <button class="bg-pink-500 text-indigo-100 pl-4 pr-4 pt-2 pb-2 mt-4 rounded-full uppercase text-xs font-bold">Enroll now</button> 
+
+                <div class="absolute right-0 bg-white rounded-full flex justify-center items-center p-5 border-4 border-pink-500">
+                    <svg class="w-16 h-16" width="256px" height="154px" viewBox="0 0 256 154" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                        <defs>
+                            <linearGradient x1="-2.77777778%" y1="32%" x2="100%" y2="67.5555556%" id="linearGradient-1">
+                                <stop stop-color="#2298BD" offset="0%"></stop>
+                                <stop stop-color="#0ED7B5" offset="100%"></stop>
+                            </linearGradient>
+                        </defs>
+                        <g>
+                            <path d="M128,-1.0658141e-14 C93.8666667,-1.0658141e-14 72.5333333,17.0666667 64,51.2 C76.8,34.1333333 91.7333333,27.7333333 108.8,32 C118.537481,34.4343704 125.497363,41.4985481 133.201067,49.3184 C145.750756,62.0567704 160.275437,76.8 192,76.8 C226.133333,76.8 247.466667,59.7333333 256,25.6 C243.2,42.6666667 228.266667,49.0666667 211.2,44.8 C201.462519,42.3656296 194.502637,35.3014519 186.798933,27.4816 C174.249244,14.7432296 159.724563,-1.0658141e-14 128,-1.0658141e-14 Z M64,76.8 C29.8666667,76.8 8.53333333,93.8666667 0,128 C12.8,110.933333 27.7333333,104.533333 44.8,108.8 C54.5374815,111.23437 61.497363,118.298548 69.2010667,126.1184 C81.7507556,138.85677 96.275437,153.6 128,153.6 C162.133333,153.6 183.466667,136.533333 192,102.4 C179.2,119.466667 164.266667,125.866667 147.2,121.6 C137.462519,119.16563 130.502637,112.101452 122.798933,104.2816 C110.249244,91.5432296 95.724563,76.8 64,76.8 Z" fill="url(#linearGradient-1)"></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="flex flex-col flex-center items-center">
+        <div class="max-w-4xl">
+            <div class="m-2">
+                <h3 class="mt-8 text-indigo-800 font-bold mb-2">How It Works</h3>
+
+                <hr>
+
+                <p class="mt-2">Tailwind is designed for rapid development of modern applications. At its core, it is robust mobile-first design system built with developer experience in mind. After using Tailwind CSS, you will find it difficult to go back to use anything else. Learn all about it in this all inclusive course.
+                </p>
+            </div>
+
+            <div class="m-2">
+                <h3 class="mt-8 text-indigo-800 font-bold mb-2">Advantages</h3>
+
+                <hr class="bg-gray-500">
+
+                <div class="flex flex-col sm:flex-row sm:mx-2">
+                    <div class="p-2 sm:w-1/3">
+                        <div class="bg-white p-8 h-full border-pink-500  border-b-4 rounded-lg flex flex-col items-center sm:mx-2">
+                            <div class="bg-gray-200 text-indigo-700 w-16 rounded-full p-2">
+                                <svg class="h-12 w-12 fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <g>
+                            <g>
+                                <path d="M475.803,5.184C472.763,1.888,468.507,0,463.995,0h-416c-4.48,0-8.768,1.888-11.808,5.184
+                                    c-3.008,3.328-4.512,7.744-4.128,12.192l37.888,432c0.576,6.656,5.184,12.192,11.584,14.016l170.112,48
+                                    c1.44,0.416,2.88,0.608,4.352,0.608c1.472,0,2.944-0.192,4.352-0.576l170.048-47.968c6.4-1.824,10.976-7.392,11.584-14.016
+                                    l37.952-432.032C480.348,12.928,478.843,8.512,475.803,5.184z M411.099,435.616L255.995,479.36l-155.136-43.776L65.467,32h381.056
+                                    L411.099,435.616z"/>
+                            </g>
+                            </g>
+                            <g>
+                            <g>
+                                <path d="M379.675,101.056c-3.008-3.232-7.232-5.056-11.68-5.056h-224c-8.832,0-16,7.168-16,16c0,8.832,7.168,16,16,16h206.912
+                                    l-14.176,212.224l-80.736,26.912l-80-26.656V320c0-8.832-7.168-16-16-16c-8.832,0-16,7.168-16,16v32
+                                    c0,6.88,4.416,12.992,10.944,15.2l96,32c1.632,0.512,3.36,0.8,5.056,0.8c1.728,0,3.392-0.288,5.056-0.832l96-32
+                                    c6.176-2.048,10.464-7.616,10.912-14.112l16-240C384.251,108.64,382.683,104.288,379.675,101.056z"/>
+                            </g>
+                            </g>
+                            <g>
+                            <g>
+                                <path d="M359.355,224h-211.52c-8.832,0-16,7.168-16,16c0,8.832,7.168,16,16,16h211.52c8.864,0,16-7.168,16-16
+                                    C375.355,231.168,368.187,224,359.355,224z"/>
+                            </g>
+                                </g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                            </div>
+                            <div class="font-bold text-lg text-center">No custom CSS</div>
+                            <div class="text-center mt-2 text-gray-600 text-sm">Tailwind's advanced class extraction will leave your project free of custom CSS.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="p-2 sm:w-1/3">
+                        <div class="bg-white p-8 h-full border-pink-500  border-b-4 rounded-lg flex flex-col items-center sm:mx-2">
+                            <div class="bg-gray-200 text-indigo-700 w-16 rounded-full p-2">
+                                <svg class="h-12 w-12 fill-current" data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><title/><path d="M121,0H7A7,7,0,0,0,0,7V89a7,7,0,0,0,7,7H45v26H29a3,3,0,0,0,0,6H99a3,3,0,0,0,0-6H83V96h38a7,7,0,0,0,7-7V7A7,7,0,0,0,121,0ZM7,6H121a1,1,0,0,1,1,1V73H6V7A1,1,0,0,1,7,6ZM77,122H51V96H77Zm44-32H7a1,1,0,0,1-1-1V79H122V89A1,1,0,0,1,121,90Z"/></svg>
+                            </div>
+                            <h4 class="font-bold text-lg text-center">Developer Experience</h4>
+                            <p class="text-center mt-2 text-gray-600 text-sm">Tailwind is designed with your happiness in mind. The ease of performing changes is refreshing.</p>
+                        </div>
+                    </div>
+
+                    <div class="p-2 sm:w-1/3">
+                        <div class="bg-white p-8 h-full border-pink-500  border-b-4 rounded-lg flex flex-col items-center sm:mx-2">
+                            <div class="bg-gray-200 text-indigo-700 w-16 rounded-full p-2">
+                                <svg class="h-12 w-12 fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <path d="M298.667,25.6h-85.333c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h85.333
+                                            c4.71,0,8.533-3.823,8.533-8.533C307.2,29.423,303.377,25.6,298.667,25.6z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M358.4,25.6h-8.533c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h8.533
+                                            c4.71,0,8.533-3.823,8.533-8.533C366.933,29.423,363.11,25.6,358.4,25.6z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M266.598,435.2H245.41c-12.979,0-23.543,10.564-23.543,23.543v4.122c0,12.979,10.564,23.535,23.535,23.535h21.188
+                                            c12.979,0,23.543-10.556,23.543-23.535v-4.122C290.133,445.764,279.569,435.2,266.598,435.2z M273.067,462.865
+                                            c0,3.567-2.901,6.468-6.468,6.468H245.41c-3.575,0-6.477-2.901-6.477-6.468v-4.122c0-3.575,2.901-6.477,6.477-6.477h21.18
+                                            c3.576,0,6.477,2.901,6.477,6.477V462.865z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M370.227,0H141.781c-17.007,0-30.848,13.841-30.848,30.848v450.304c0,17.007,13.841,30.848,30.848,30.848h228.437
+                                            c17.007,0,30.848-13.841,30.848-30.839V30.848C401.067,13.841,387.226,0,370.227,0z M384,481.152
+                                            c0,7.595-6.178,13.781-13.773,13.781H141.781c-7.603,0-13.781-6.187-13.781-13.773V30.848c0-7.595,6.178-13.781,13.781-13.781
+                                            h228.437c7.603,0,13.781,6.187,13.781,13.781V481.152z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M392.533,51.2H119.467c-4.71,0-8.533,3.823-8.533,8.533v358.4c0,4.71,3.823,8.533,8.533,8.533h273.067
+                                            c4.71,0,8.533-3.823,8.533-8.533v-358.4C401.067,55.023,397.244,51.2,392.533,51.2z M384,409.6H128V68.267h256V409.6z"/>
+                                    </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+                                </svg>
+                            </div>
+                            <h4 class="font-bold text-lg text-center">Mobile Friendly</h4>
+                            <p class="text-center mt-2 text-gray-600 text-sm">Modern applications demand mobile-friendly & Tailwind's responsive modifiers make it easy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gray-900 mt-8 w-full flex flex-col items-center">
+            <div class="max-w-4xl">
+                <div class="flex flex-col items-center mt-6">
+                    <h3 class="text-gray-200 font-bold text-lg m-4">Sign up to download the free PDF</h3>
+                </div>
+
+                <form action="#" method="post">
+                    <div class="flex flex-col md:flex-row md:-mx-2">
+                        <label for="first_name" class="sr-only">First name</label>
+                        <input class="bg-gray-700 border border-gray-600 rounded-lg py-2 px-4 w-full mt-4 md:mx-2" type="text" placeholder="First name" id="first_name">
+
+                        <label for="last_name" class="sr-only">Last name</label>
+                        <input class="bg-gray-700 border border-gray-600 rounded-lg py-2 px-4 w-full mt-4 md:mx-2" type="text" placeholder="Last name" id="last_name">
+                    </div>
+
+                    <div class="flex flex-col md:flex-row md:-mx-2">
+                        <label for="email" class="sr-only">Email address</label>
+                        <input class="bg-gray-700 border border-gray-600 rounded-lg py-2 px-4 w-full mt-4 md:mx-2" type="text" placeholder="john@email.com" id="email">
+
+                        <label for="title" class="sr-only">Your title</label>
+                        <input class="bg-gray-700 border border-gray-600 rounded-lg py-2 px-4 w-full mt-4 md:mx-2" type="text" placeholder="Your title" id="title">
+                    </div>
+
+                    <button class="bg-blue-500 border border-blue-900 rounded-lg text-center w-full py-2 mt-4"><p class="font-bold text-white">Create account</p></button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 w-full">
+        <p class="text-center text-sm text-blue-100 py-8">Copyright&copy2021 Scrimba</p>
+    </footer>
+</body>
+</html>
